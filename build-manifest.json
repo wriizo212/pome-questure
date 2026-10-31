@@ -1,0 +1,93 @@
+{
+  "build": "8736dd8b7da3",
+  "baselineCommit": "d7c09c4928c02dda525c2047dd331ee9fd3e056a",
+  "assets": {
+    "plant": "assets/pome-plant.6423ccd0f692.glb",
+    "equipment": "assets/interactive-equipment.5a381edf6724.glb",
+    "equipmentLow": "assets/interactive-equipment-low.90b7919be148.glb",
+    "mill": "assets/discovery-mill.f777a3ce0422.glb",
+    "river": "assets/river-props.0fafb520758f.glb"
+  },
+  "files": [
+    {
+      "file": "assets/pome-plant.6423ccd0f692.glb",
+      "bytes": 2017508,
+      "gzipBytes": 577112
+    },
+    {
+      "file": "assets/interactive-equipment.5a381edf6724.glb",
+      "bytes": 763320,
+      "gzipBytes": 158520
+    },
+    {
+      "file": "assets/interactive-equipment-low.90b7919be148.glb",
+      "bytes": 219376,
+      "gzipBytes": 52644
+    },
+    {
+      "file": "assets/discovery-mill.f777a3ce0422.glb",
+      "bytes": 1431320,
+      "gzipBytes": 392632
+    },
+    {
+      "file": "assets/river-props.0fafb520758f.glb",
+      "bytes": 33636,
+      "gzipBytes": 11398
+    },
+    {
+      "file": "assets/art.7bf6f7bcd214.webp",
+      "bytes": 240028,
+      "gzipBytes": 240121
+    },
+    {
+      "file": "assets/art.1f3694168b80.webp",
+      "bytes": 364258,
+      "gzipBytes": 364391
+    },
+    {
+      "file": "assets/art.e65aece7a515.webp",
+      "bytes": 169846,
+      "gzipBytes": 169919
+    },
+    {
+      "file": "assets/art.89e4bc0fbc55.webp",
+      "bytes": 174572,
+      "gzipBytes": 174645
+    },
+    {
+      "file": "assets/art.c90cff659645.webp",
+      "bytes": 42,
+      "gzipBytes": 60
+    },
+    {
+      "file": "assets/app-1.27dd7183ede7.js",
+      "bytes": 90133,
+      "gzipBytes": 20294
+    },
+    {
+      "file": "assets/app-2.18ae399f8118.js",
+      "bytes": 56694,
+      "gzipBytes": 11653
+    },
+    {
+      "file": "assets/app-3.d6c93cb1ce9a.js",
+      "bytes": 1147636,
+      "gzipBytes": 334639
+    },
+    {
+      "file": "assets/app.76eed8aad423.css",
+      "bytes": 380172,
+      "gzipBytes": 53561
+    },
+    {
+      "file": "assets/manifest.f1fbeafd8a85.js",
+      "bytes": 430,
+      "gzipBytes": 283
+    },
+    {
+      "file": "index.html",
+      "bytes": 85094,
+      "gzipBytes": 17794
+    }
+  ]
+}
