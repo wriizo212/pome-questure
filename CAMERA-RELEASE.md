@@ -35,3 +35,13 @@ Sources: [MediaPipe web hand-landmarker guide](https://developers.google.com/edg
 ## Compatibility follow-up
 
 Current publication build: `4e56fd913005`. The performance table above belongs to `8d5445cfdf7c`. The follow-up changes only camera-stop handling for the no-Worker compatibility path: loaded main-thread models remain cached for reuse instead of being re-created at each start. The active Worker inference and rendering paths are unchanged. The follow-up passed Worker startup, lazy face loading, stop/restart, compatibility startup, cached-model identity on restart and clean stop. The browser-provided fake camera returned NotFoundError on reacquisition. Restart checks now create a fresh generated video stream for each request and passed over public HTTPS. Physical camera reacquisition remains untested.
+
+## Expanded finger controls — 2 November 2026
+
+Current application build: `6122830825f8`.
+
+The hand-control guide in each of the eight 3D learning scenes includes two saved, optional preferences. Easy pinch accepts a wider thumb/index gap and maintains a wider release threshold. Finger zoom accepts any three fingers to zoom in and any four to zoom out after a 0.6-second hold. It stops on tracking loss, pose change or disabling the option, and does not replace an active valve/slider grip. Five fingers remains the preparation pose, index/middle rotates, and two palms or two pinches control the view together. Legacy quiz finger answers are unchanged.
+
+Validation passed on this build: all 32 synthetic finger combinations; stable primary-hand ordering; two-hand and two-finger controls across eight scenes; three/four-finger zoom direction, hold delay, tracking-loss reset and disabling; wider-gap pinch selection compared with normal mode; saved preferences without automatic camera startup; synthetic valve drag/release; full 140-point quiz, monsoon success/failure, swipe, face navigation, Stage 3 drag, QR/PDF and mobile layout. No page errors in these functional tests.
+
+The performance table above remains evidence for its named earlier build. This update has not repeated the camera-on FPS benchmark. Physical camera and real-device gesture accuracy remain unverified.
