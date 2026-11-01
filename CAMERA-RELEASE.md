@@ -31,3 +31,7 @@ Passed optional camera startup/denial, synthetic selection and pinch sliders, tr
 Physical Android/iOS/Windows cameras, varied lighting/skin tones/occlusion and real low-end-device GPU performance remain untested. No universal 60 FPS guarantee is made. The compatibility path runs inference less frequently on the main thread and cannot carry the same Worker performance claim. Earlier camera-off ten-minute soak results belong to the preceding release; this camera build has its own measurements above.
 
 Sources: [MediaPipe web hand-landmarker guide](https://developers.google.com/edge/mediapipe/solutions/vision/hand_landmarker/web_js), [official test image](https://storage.googleapis.com/mediapipe-assets/right_hands.jpg). The reference image is used only by local validation and is not included in the game publication.
+
+## Compatibility follow-up
+
+Current publication build: `4e56fd913005`. The performance table above belongs to `8d5445cfdf7c`. The follow-up changes only camera-stop handling for the no-Worker compatibility path: loaded main-thread models remain cached for reuse instead of being re-created at each start. The active Worker inference and rendering paths are unchanged. The follow-up passed Worker startup, lazy face loading, stop/restart, compatibility startup, cached-model identity on restart and clean stop. A first HTTPS restart test timed out; the detailed repeat passed locally. This reinforces the network-dependent loading limitation rather than a claim of universal device support.
