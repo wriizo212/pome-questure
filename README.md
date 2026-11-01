@@ -43,3 +43,9 @@ Lihat `RELEASE-VALIDATION.md` untuk keputusan ujian dan batas pengesahan keluara
 - Rangka kedua-dua tangan muncul pada pratonton kecil. Tangan utama dikekalkan apabila susunan hasil pengesanan bertukar.
 
 Prestasi semua telefon/tablet tidak boleh dijamin. Rujuk `CAMERA-RELEASE.md` untuk ukuran tepat, perkakasan ujian dan batas kamera fizikal.
+
+## Research Studio — 2 November 2026
+
+Open Research Studio from the lobby for Scan & Compare, the two-hand aeration experiment, River Rescue, layered notes and optional camera practice. All activities also support touch/mouse/keyboard. Badges and evidence save on the current device without a student name. Existing 3D scenes include focus/fullscreen controls.
+
+[Release scope, validation and performance limits](STUDIO-RELEASE.md). Camera animation and inference rates are separate. Physical-device gesture accuracy remains unverified.
