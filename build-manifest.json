@@ -1,7 +1,8 @@
 {
-  "build": "8736dd8b7da3",
+  "build": "8d5445cfdf7c",
   "baselineCommit": "d7c09c4928c02dda525c2047dd331ee9fd3e056a",
   "assets": {
+    "visionWorker": "assets/vision-worker.20951a13587f.js",
     "plant": "assets/pome-plant.6423ccd0f692.glb",
     "equipment": "assets/interactive-equipment.5a381edf6724.glb",
     "equipmentLow": "assets/interactive-equipment-low.90b7919be148.glb",
@@ -9,6 +10,21 @@
     "river": "assets/river-props.0fafb520758f.glb"
   },
   "files": [
+    {
+      "file": "assets/vision-runtime.52b84244bb64.js",
+      "bytes": 137025,
+      "gzipBytes": 39657
+    },
+    {
+      "file": "assets/vision-worker.20951a13587f.js",
+      "bytes": 1301,
+      "gzipBytes": 628
+    },
+    {
+      "file": "assets/mediapipe-license.8707eef05339.txt",
+      "bytes": 12331,
+      "gzipBytes": 4324
+    },
     {
       "file": "assets/pome-plant.6423ccd0f692.glb",
       "bytes": 2017508,
@@ -70,9 +86,9 @@
       "gzipBytes": 11653
     },
     {
-      "file": "assets/app-3.d6c93cb1ce9a.js",
-      "bytes": 1147636,
-      "gzipBytes": 334639
+      "file": "assets/app-3.5beefb5eec67.js",
+      "bytes": 1157157,
+      "gzipBytes": 338340
     },
     {
       "file": "assets/app.76eed8aad423.css",
@@ -80,14 +96,14 @@
       "gzipBytes": 53561
     },
     {
-      "file": "assets/manifest.f1fbeafd8a85.js",
-      "bytes": 430,
-      "gzipBytes": 283
+      "file": "assets/manifest.6d0a006f621c.js",
+      "bytes": 486,
+      "gzipBytes": 313
     },
     {
       "file": "index.html",
       "bytes": 85094,
-      "gzipBytes": 17794
+      "gzipBytes": 17795
     }
   ]
 }
