@@ -1,10 +1,10 @@
 {
-  "build": "2e41e672a8a3",
+  "build": "15b53ea3e144",
   "baselineCommit": "d7c09c4928c02dda525c2047dd331ee9fd3e056a",
   "assets": {
     "visionWorker": "assets/vision-worker.20951a13587f.js",
     "plant": "assets/pome-plant.6423ccd0f692.glb",
-    "equipment": "assets/interactive-equipment.5a381edf6724.glb",
+    "equipment": "assets/interactive-equipment.8166fbd2499b.glb",
     "equipmentLow": "assets/interactive-equipment-low.90b7919be148.glb",
     "mill": "assets/discovery-mill.f777a3ce0422.glb",
     "river": "assets/river-props.0fafb520758f.glb"
@@ -31,9 +31,9 @@
       "gzipBytes": 577112
     },
     {
-      "file": "assets/interactive-equipment.5a381edf6724.glb",
-      "bytes": 763320,
-      "gzipBytes": 158520
+      "file": "assets/interactive-equipment.8166fbd2499b.glb",
+      "bytes": 825428,
+      "gzipBytes": 183570
     },
     {
       "file": "assets/interactive-equipment-low.90b7919be148.glb",
@@ -96,7 +96,7 @@
       "gzipBytes": 55121
     },
     {
-      "file": "assets/manifest.bd9a2483871e.js",
+      "file": "assets/manifest.a424e8a568f4.js",
       "bytes": 486,
       "gzipBytes": 313
     },
