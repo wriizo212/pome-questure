@@ -1,5 +1,5 @@
 {
-  "build": "ab276b7763b0",
+  "build": "cf9a93ab2026",
   "baselineCommit": "d7c09c4928c02dda525c2047dd331ee9fd3e056a",
   "assets": {
     "visionWorker": "assets/vision-worker.20951a13587f.js",
@@ -91,12 +91,12 @@
       "gzipBytes": 349166
     },
     {
-      "file": "assets/app.997d6b85e98d.css",
-      "bytes": 386292,
-      "gzipBytes": 55203
+      "file": "assets/app.c93d22840fac.css",
+      "bytes": 386305,
+      "gzipBytes": 55207
     },
     {
-      "file": "assets/manifest.31eefdd2c78f.js",
+      "file": "assets/manifest.1437e1b017ce.js",
       "bytes": 486,
       "gzipBytes": 313
     },
