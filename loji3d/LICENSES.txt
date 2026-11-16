@@ -1,0 +1,6 @@
+POME Questure: Loji 3D - third-party components
+- three.js (MIT) - see THREE-LICENSE.txt
+- MediaPipe Tasks Vision 0.10.14 (Apache-2.0) - see vendor/mediapipe-license.txt
+- Phosphor Icons (MIT) - https://github.com/phosphor-icons/core
+- Plus Jakarta Sans (SIL Open Font License 1.1) - https://github.com/tokotype/PlusJakartaSans
+- qrcode-generator (MIT) - https://github.com/kazuhikoarase/qrcode-generator
