@@ -1,7 +1,11 @@
 {
-  "build": "42ed953574aa",
+  "build": "823cfd2e3b5e",
   "baselineCommit": "d7c09c4928c02dda525c2047dd331ee9fd3e056a",
   "assets": {
+    "kelah-micro": "assets/kelah-micro.ddb32d890acc.webp",
+    "kelah-river": "assets/kelah-river.803815f818c4.webp",
+    "kelah-scout": "assets/kelah-scout.34eb2bd1848d.png",
+    "kelah-workshop": "assets/kelah-workshop.ab647fe34d97.webp",
     "visionWorker": "assets/vision-worker.20951a13587f.js",
     "plant": "assets/pome-plant.6423ccd0f692.glb",
     "equipment": "assets/interactive-equipment.8166fbd2499b.glb",
@@ -10,6 +14,26 @@
     "river": "assets/river-props.0fafb520758f.glb"
   },
   "files": [
+    {
+      "file": "assets/kelah-micro.ddb32d890acc.webp",
+      "bytes": 211188,
+      "gzipBytes": 211271
+    },
+    {
+      "file": "assets/kelah-river.803815f818c4.webp",
+      "bytes": 712284,
+      "gzipBytes": 712522
+    },
+    {
+      "file": "assets/kelah-scout.34eb2bd1848d.png",
+      "bytes": 111708,
+      "gzipBytes": 111515
+    },
+    {
+      "file": "assets/kelah-workshop.ab647fe34d97.webp",
+      "bytes": 552934,
+      "gzipBytes": 553122
+    },
     {
       "file": "assets/vision-runtime.52b84244bb64.js",
       "bytes": 137025,
@@ -86,19 +110,19 @@
       "gzipBytes": 11653
     },
     {
-      "file": "assets/app-3.ee044e893da1.js",
-      "bytes": 1294803,
-      "gzipBytes": 386134
+      "file": "assets/app-3.3188f1ad8cde.js",
+      "bytes": 1308357,
+      "gzipBytes": 391253
     },
     {
-      "file": "assets/app.c73fd03263aa.css",
-      "bytes": 411419,
-      "gzipBytes": 61248
+      "file": "assets/app.fe92fad06233.css",
+      "bytes": 416571,
+      "gzipBytes": 62653
     },
     {
-      "file": "assets/manifest.764ff2ff1d84.js",
-      "bytes": 486,
-      "gzipBytes": 313
+      "file": "assets/manifest.3f6bb1cc20a1.js",
+      "bytes": 711,
+      "gzipBytes": 396
     },
     {
       "file": "index.html",
