@@ -1,5 +1,5 @@
 {
-  "build": "b689eeb705fd",
+  "build": "42ed953574aa",
   "baselineCommit": "d7c09c4928c02dda525c2047dd331ee9fd3e056a",
   "assets": {
     "visionWorker": "assets/vision-worker.20951a13587f.js",
@@ -86,24 +86,24 @@
       "gzipBytes": 11653
     },
     {
-      "file": "assets/app-3.8d17c0fd2856.js",
-      "bytes": 1291074,
-      "gzipBytes": 384945
+      "file": "assets/app-3.ee044e893da1.js",
+      "bytes": 1294803,
+      "gzipBytes": 386134
     },
     {
-      "file": "assets/app.a37c842c6254.css",
-      "bytes": 411159,
-      "gzipBytes": 61184
+      "file": "assets/app.c73fd03263aa.css",
+      "bytes": 411419,
+      "gzipBytes": 61248
     },
     {
-      "file": "assets/manifest.bffa9efff0bf.js",
+      "file": "assets/manifest.764ff2ff1d84.js",
       "bytes": 486,
       "gzipBytes": 313
     },
     {
       "file": "index.html",
       "bytes": 85094,
-      "gzipBytes": 17796
+      "gzipBytes": 17795
     }
   ]
 }
